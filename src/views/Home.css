@@ -1,11 +1,8 @@
-*{
-    font-family: 'nunito-sans';
-}
-
 #intro{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 
 h1{
     line-height: 49px;
@@ -22,14 +19,14 @@ p{
 .part1{
     width: 593px;
     height: 98px;
-    margin-left: 180px;
+    margin-left: 130px;
     margin-top: 100px;
 }
 
 .introimg{
     position: absolute;
     left: 56.53%;
-    right: 7.92%;
+    right: 20.92%;
     top: 4.56%;
     bottom: 79.37%;
 }
@@ -50,7 +47,7 @@ p{
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
-    margin-top: 450px;
+    margin-top: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +63,9 @@ p{
 }
 
 .card{
-    width: 320px;
+    /* display: inline-flex; */
+    /* overflow:auto; */
+    width: 280px;
     height: 300px;
     left: 290px;
     top: 896.09px;
@@ -75,9 +74,116 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .cards{
     display: flex;
     justify-content: space-around;
+}
+
+.cardicon{
+    margin-top: 14.29%;
+    margin-bottom: 5%;
+    width: 90px;
+    height: 100px;
+    color: white;
+}
+
+#teachers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 170px;
+}
+
+.sideimg{
+    margin-left: 130px;
+}
+
+.part2 >h1{
+    text-align: right;
+    margin-right: 180px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+.part2 >p{
+    text-align: right;
+    margin-right: 180px;
+    font-size: 18px;
+}
+
+.part2 >ul li{
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+#id{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.why{
+    position: absolute;
+    z-index: 1;
+    margin-left: -500px;
+}
+
+.rectangle{
+    position: absolute;
+    margin-left: -580px;
+    margin-top: 330px;
+}
+
+.number{
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 530px;
+    width: 134px;
+    height: 49px;
+}
+
+.label1 label{
+    font-weight: 600;
+    font-size: 36px;
+    color: white;
+}
+
+.label2{
+    margin-top: -50px;   
+}
+
+.label2 label{
+    color: white;  
+    font-weight: normal;
+    font-size: 24px; 
+}
+
+.lab1{
+    margin-left: 30px;   
+}
+
+.lab2{
+    margin-left: 60px;   
+}
+
+.lab3{
+    margin-left:60px;  
+}
+
+.footer{
+    width: 1794px;
+    height: 78px;
+    float: left;
+    background: #003050;
+    margin-top: 679px;
+    margin-left: -60px;
+}
+
+.footer>p{
+    margin-left: 800px;
+    color: white;
 }
