@@ -140,10 +140,14 @@ p{
 
 .number{
     position: absolute;
-    margin-left: 540px;
+    margin-left: 620px;
     margin-top: 530px;
     width: 134px;
     height: 49px;
+}
+
+.label1{
+    margin-left: 10px;
 }
 
 .label1 label{

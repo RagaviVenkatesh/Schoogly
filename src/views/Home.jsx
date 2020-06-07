@@ -84,9 +84,9 @@ export default function Home() {
         <div class="number">
             <p class="label1">
               <label>26000+</label>
-              &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
               <label>1600+</label>
-              &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
               <label>900+</label>
             </p>
             <p class="label2">
