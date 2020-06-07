@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./views/Home";
 import Announcements from "./Announcements/Announcements";
 import Meeting from "./Meeting/Meeting";
+import Signup from "./Signup/Signup";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/Announcements" component={Announcements} />
         <Route path="/Meeting" component={Meeting} />
+        <Route path="/Signup" component={Signup} />
       </Switch>
     </div>
   );
